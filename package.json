@@ -1,0 +1,23 @@
+{
+  "name": "calculadora-subredes",
+  "version": "1.0.0",
+  "description": "Calculadora de subredes Ipv4, entregando diferente información como máscara, hosts válidos, cidr, todo como un objeto fácilmente mapeable desde el frontend",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs",
+    "Calculadora",
+    "Calculadora",
+    "de",
+    "subredes",
+    "IPV4",
+    "REDES"
+  ],
+  "author": "Vicente Jorquera",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
