@@ -48,6 +48,8 @@ function calcularSubredes(event) {
 
                         let valorInicialDecimal = parseInt(valorInicialBinarioCompleto, 2)
                         let valorFinalDecimal = parseInt(valorFinalBinarioCompleto, 2)
+                        
+                        octeto4 = 256 - resultado
 
                         hostsOrdenados[item].rango = `${valorInicialDecimal} - ${valorFinalDecimal}`
                         hostsOrdenados[item].mascara = `${octeto1}.${octeto2}.${octeto3}.${octeto4}`
@@ -56,7 +58,7 @@ function calcularSubredes(event) {
                         hostsOrdenados[item].primeraDisponible = valorInicialDecimal + 1
 
                         ultimaDisponible = valorFinalDecimal
-                        octeto4 = 256 - resultado
+                        
                         break
                     }
                 }    
@@ -78,7 +80,9 @@ const eventTest = {
         {"identificador": "A", "hostNecesarios": 12},
         {"identificador": "B", "hostNecesarios": 6},
         {"identificador": "C", "hostNecesarios": 63},
-        {"identificador": "D", "hostNecesarios": 4},
+        {"identificador": "D", "hostNecesarios": 16},
+        {"identificador": "E", "hostNecesarios": 8},
+        {"identificador": "F", "hostNecesarios": 2},
     ]
 }
 
